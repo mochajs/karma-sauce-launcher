@@ -1,11 +1,11 @@
-# karma-sauce-launcher
+# @mochajs/karma-sauce-launcher
 
-Fork of [karma-runner/karma-sauce-launcher](https://github.com/karma-runner/karma-sauce-launcher) v1.1.0.
+> Fork of [karma-runner/karma-sauce-launcher](https://github.com/karma-runner/karma-sauce-launcher)
 
-## Changes
+## Motivation
 
- - Updated dependencies
- - Removed Grunt
- - Use [standard](https://github.com/feross/standard)
- - Use [semantic-release](https://github.com/semantic-release/semantic-release)
- - Use [.editorconfig](http://editorconfig.org)
+We need to ensure this works properly, as PRs are not currently being accepted into the original project (as of Jun 3 2017).
+
+## License
+
+This project is licensed MIT, but is currently not a [JS Foundation](https://js.foundation) project, since the copyright is originally owned by Google.
