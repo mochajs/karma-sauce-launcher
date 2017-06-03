@@ -1,7 +1,7 @@
 {
   "name": "@mochajs/karma-sauce-launcher",
   "version": "1.0.0",
-  "description": "A Karma plugin. Launch any browser on SauceLabs!",
+  "description": "Mocha's fork of karma-runner/karma-sauce-launcher",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
