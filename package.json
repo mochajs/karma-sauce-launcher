@@ -1,18 +1,16 @@
 {
-  "name": "@coderbyheart/karma-sauce-launcher",
-  "version": "0.0.0-development",
+  "name": "@mochajs/karma-sauce-launcher",
+  "version": "1.0.0",
   "description": "A Karma plugin. Launch any browser on SauceLabs!",
   "main": "index.js",
   "scripts": {
-    "test": "karma start examples/karma.conf-ci.js",
-    "lint": "standard",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "precommit": "npm run lint",
-    "commitmsg": "validate-commit-msg"
+    "test": "karma start",
+    "lint": "semistandard",
+    "pretest": "npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderbyheart/karma-sauce-launcher.git"
+    "url": "https://github.com/mochajs/karma-sauce-launcher.git"
   },
   "keywords": [
     "karma-plugin",
@@ -30,13 +28,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "husky": "^0.13.1",
     "jasmine": "^2.5.3",
     "karma": "^1.4.0",
     "karma-jasmine": "^1.1.0",
-    "semantic-release": "^6.3.2",
-    "standard": "^8.6.0",
-    "validate-commit-msg": "^2.10.1"
+    "semistandard": "^11.0.0"
   },
   "contributors": [
     "Mark Ethan Trostler <mark@zzo.com>",
