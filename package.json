@@ -1,5 +1,5 @@
 {
-  "name": "@mochajs/karma-sauce-launcher",
+  "name": "@mocha/karma-sauce-launcher",
   "version": "1.0.0",
   "description": "Mocha's fork of karma-runner/karma-sauce-launcher",
   "main": "index.js",

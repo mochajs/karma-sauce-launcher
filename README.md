@@ -1,4 +1,4 @@
-# @mochajs/karma-sauce-launcher
+# @mocha/karma-sauce-launcher
 
 > Fork of [karma-runner/karma-sauce-launcher](https://github.com/karma-runner/karma-sauce-launcher)
 
