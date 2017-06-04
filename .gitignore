@@ -1,3 +1,5 @@
 node_modules
 sauce_connect.log
 npm-debug.log
+package-lock.json
+
